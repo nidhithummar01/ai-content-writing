@@ -4,11 +4,16 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite --host 0.0.0.0",
-    "build": "vite build",
+    "dev": "node init && vite --host 0.0.0.0",
+    "build": "node init && vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "latest"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7"
   }
 }
